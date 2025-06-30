@@ -220,4 +220,41 @@ pip-selfcheck.json
 .history
 .ionide
 
+# --- VUEJS ---
+# Node modules
+node_modules/
+# Build output
+dist/
+# Local env files
+.env.local
+.env.*.local
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# Editor directories and files
+.idea/
+.DS_Store
+# Vite cache
+.vite/
+# Coverage directory used by tools like istanbul
+coverage/
+# Optional eslint cache
+.eslintcache
+# Optional stylelint cache
+.stylelintcache
+# vuepress build output
+.vuepress/dist
+# Storybook build outputs
+.out/
+.storybook-out/
+# VSCode settings for Vue
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,linux,venv
