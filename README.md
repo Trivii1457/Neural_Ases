@@ -29,8 +29,8 @@ mi-proyecto-red-neuronal
 
 1. Clona el repositorio:
    ```
-   git clone <URL_DEL_REPOSITORIO>
-   cd mi-proyecto-red-neuronal
+   git clone https://github.com/Trivii1457/Neural_Ases.git
+   cd Neural_Ases
    ```
 
 2. Instala las dependencias:

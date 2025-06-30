@@ -1,3 +1,10 @@
+"""
+@Author: Trivi
+@Date: 2023-10-01
+@Description: Interfaz de usuario para el generador de informes con red neuronal.
+"""
+
+
 from tkinter import Tk, Text, Button, Label, Scrollbar, END, messagebox
 from pdf_generator.generator import PDFGenerator
 from neural_network.model import NeuralNetwork
@@ -5,7 +12,7 @@ from neural_network.model import NeuralNetwork
 class UserInterface:
     def __init__(self, master):
         self.master = master
-        master.title("Generador de Informes con Red Neuronal")
+        master.title("Generador de Informes con Red Neuronal by Trivi")
 
         self.label = Label(master, text="Ingrese el texto plano:")
         self.label.pack()
@@ -41,6 +48,7 @@ class UserInterface:
 
         pdf_path = self.pdf_generator.create_pdf(generated_text, dimensions)
         messagebox.showinfo("Informe Generado", f"El informe se ha guardado en: {pdf_path}")
+
 
 if __name__ == "__main__":
     root = Tk()
