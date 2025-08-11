@@ -6,3 +6,4 @@ matplotlib
 reportlab
 sqlalchemy
 flask
+flask-cors
