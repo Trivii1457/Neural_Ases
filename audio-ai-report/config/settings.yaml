@@ -1,0 +1,34 @@
+audio-ai-report/config/settings.yaml
+
+app:
+  name: Audio AI Report
+  version: 1.0.0
+  debug: true
+
+database:
+  uri: sqlite:///backend/database/app.db
+  echo: true
+
+audio:
+  max_file_size: 10MB
+  supported_formats:
+    - mp3
+    - wav
+    - ogg
+
+report:
+  default_template: "templates/report_template.html"
+  pdf_output_path: "/tmp/reports"
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  handlers:
+    - console
+    - file
+
+services:
+  transcription_service:
+    model_path: "ml/models/transcription_model.h5"
+  nlp_service:
+    model_path: "ml/models/nlp_model.h5"
