@@ -1,6 +1,6 @@
 # Mi Proyecto de Red Neuronal
 
-Este proyecto tiene como objetivo desarrollar una aplicación que utiliza una red neuronal para generar informes específicos en formato PDF a partir de un texto plano ingresado por el usuario. La aplicación clasifica y distingue dimensiones específicas y genera nuevos textos basados en la entrada proporcionada.
+Este proyecto tiene como objetivo desarrollar una aplicación que utiliza una red neuronal para generar informes específicos en formato PDF a partir de un auidio grabado en la aplicacion. La aplicación clasifica y distingue dimensiones específicas y genera nuevos textos basados en la entrada proporcionada.
 
 ## Estructura del Proyecto
 
